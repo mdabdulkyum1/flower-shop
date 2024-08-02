@@ -1,0 +1,57 @@
+/* fonts here */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary:#e55473;
+    --bg-primary:#fceef1;
+    --secondary:#a49c9d;
+    --white:white;
+    --width:1300px;
+    --sec-title-size:3.5rem;
+}
+/* ********************************************
+**********  Start common css here    **********
+**********************************************/
+.d-flex{
+    display: flex;
+}
+.col{
+    width: 50%;
+}
+img{
+    width: 100%;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* button style */
+.btn-primary{
+    color: var(--white);
+    background-color: var(--primary);
+    padding:15px 25px;
+    border: none;
+    border-radius: 5px;
+}
+/* ********************************************
+**********   End common css here    ***********
+**********************************************/
+
+/* *** header *** */
+.header{
+    background-color: ;
+}
+.nav{}
+
+.banner{}
+.banner-container{}
+.banner-content{}
+.banner-content h1{}
+.banner-content p{}
+.banner-img{}
