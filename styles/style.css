@@ -47,6 +47,17 @@ a{
     border-radius: 5px;
     cursor: pointer;
 }
+.menu-btn{
+        padding: 8px 20px;
+        background-color: var(--primary);
+        color: var(--white);
+        font-weight: 600;
+        border-radius: 20px;
+}
+.menu-btn:hover{
+        background-color: var(--white);
+        color: var(--primary);
+}
 .text-center{
     text-align:center;
 }
@@ -59,8 +70,16 @@ a{
     background-color: var(--bg-primary);
 
 }
-.nav{}
-
+.nav {
+    position: absolute;
+    width: 100%;
+    top: 7%;
+    left: 9%;
+}
+ul.main-menu{
+    width: 40%;
+    justify-content: space-around;
+}
 .banner{}
 .banner-container{
     

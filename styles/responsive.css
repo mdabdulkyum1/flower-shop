@@ -1,0 +1,10 @@
+/* For Mobile */
+@media screen and (max-width: 576px) {
+    .col{
+        width: 100%;
+    }
+    .banner-container{
+        width:100%;
+        flex-direction: column;
+    }
+}
