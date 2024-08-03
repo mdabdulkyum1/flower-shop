@@ -23,6 +23,12 @@
 /* ********************************************
 **********  Start common css here    **********
 **********************************************/
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
 .d-flex{
     display: flex;
 }
@@ -53,6 +59,7 @@ a{
         color: var(--white);
         font-weight: 600;
         border-radius: 20px;
+        transition: all .5s;
 }
 .menu-btn:hover{
         background-color: var(--white);
@@ -76,10 +83,16 @@ a{
     top: 7%;
     left: 9%;
 }
+.humburger{
+   
+}
 ul.main-menu{
     width: 40%;
     justify-content: space-around;
 }
+/* .mobile-main-menu{
+    display: none;
+} */
 .banner{}
 .banner-container{
     
