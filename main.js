@@ -2,7 +2,7 @@
 var humOpen = document.getElementById("hum-open");
 var humClose = document.getElementById("hum-close");
 var mainMenu = document.getElementById("main-menu");
-
+var mClose = document.getElementById("m-close");
 humOpen.addEventListener("click", function () {
     humOpen.style.display = "none";
     humClose.style.display = "block";
@@ -13,6 +13,12 @@ humClose.addEventListener("click", function () {
     humClose.style.display = "none";
     mainMenu.style.left = "-100%";
 });
+mClose.addEventListener("click", function () {
+    humOpen.style.display = "block";
+    humClose.style.display = "none";
+    mainMenu.style.left = "-100%";
+});
+
 // document.addEventListener("click", function(){
 //     mainMenu.style.left = "-100%";
 // });

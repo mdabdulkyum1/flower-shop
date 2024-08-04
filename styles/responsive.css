@@ -32,7 +32,7 @@
         display: none;
     }
     ul.main-menu {
-        width: 100%;
+        width: 50%;
         flex-direction: column;
         gap: 20px;
         background-color: var(--primary);
@@ -52,7 +52,20 @@
         border-radius: 0px 18px 20px 0px;
         transition: all .5s;
     }
-
+    .m-close{
+        display: block;
+    }
+    .m-close {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        right: -16%;
+        bottom: 45%;
+        background-color: var(--primary);
+        padding: 2px 18px;
+        border-radius: 0px 20px 20px 0px;
+    }
     .col {
         width: 100%;
     }

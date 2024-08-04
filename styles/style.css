@@ -83,8 +83,8 @@ a{
     top: 7%;
     left: 9%;
 }
-.humburger{
-   
+.m-close{
+    display: none;
 }
 ul.main-menu{
     width: 40%;
